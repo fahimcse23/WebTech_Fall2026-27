@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: gray;
+    font-family: Verdana;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+    height: 50px;
+    padding: 25px;
+}
+.navbar{
+    position: sticky;
+}
+.navbar ul{
+    background-color: aqua;
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+nav{
+    position:sticky;
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+.navbar a:hover{
+    color: red;
+
+}
+aside{
+    width: 25%;
+    float: left;
+    padding: 25px;
+}
+section{
+    width: 50%;
+    float: left;
+    padding: 25px;
+}
+#p1{
+    color: grey;
+}
+#card{
+    background-color: aqua;
+    width: 300px;
+    padding: 20px;
+}
+button{
+    color: rgb(255, 0, 251);
+}
+article{
+    width: 25%;
+    float: left;
+    padding: 25px;
+}
+
+footer{
+    background-color: rgb(122, 195, 116);
+    border: 3px solid black;
+    text-align: center;
+    height: 50px;
+    display: block;
+    clear: both;
+}
+
