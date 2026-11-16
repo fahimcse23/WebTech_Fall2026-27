@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.box {
+    width: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    box-shadow: 2px 2px 5px #89c9f3,
+                -2px -2px 5px #89c9f3;
+
+    border-radius: 8px;
+    padding: 20px 40px;
+}
+
+.signup-header h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 10px 8px;
+}
+
+.signup-body p {
+    margin-top: 20px;
+    position: relative;
+}
+
+.signup-body p span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e80000;
+}
+
+.signup-body p label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.signup-body p input:not([type="submit"]) {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    color: #000;
+    margin-top: 5px;
+}
+
+.signup-body p input[type="submit"] {
+    width: 100%;
+    border: none;
+    background-color: aqua;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.signup-body p input[type="submit"]:hover {
+    background-color: #2773a5;
+}
+
+
+.gender-section {
+    margin-top: 20px;
+}
+
+.gender-section > label,
+.terms-section > label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.options {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.options input {
+    cursor: pointer;
+}
+
+.options label {
+    font-size: 15px;
+}
+
+
+.gender-section span,
+.terms-section span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+    margin-top: 5px;
+}
+
+
+.terms-section {
+    margin-top: 20px;
+}
+
+.signup-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-footer a {
+    text-decoration: none;
+    color: #21b400;
+}
+
+.signup-footer a:hover {
+    color: #2773a5;
+}
