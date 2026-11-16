@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+
+            <div class="signup-header">
+                <h1>Signup Form</h1>
+            </div>
+
+            <div class="signup-body">
+
+                <form action="#">
+
+                    <!-- Name -->
+                    <p>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                        <span id="nameError"></span>
+                    </p>
+
+                    <!-- Email -->
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter your email">
+                        <span id="emailError"></span>
+                    </p>
+
+                    <!-- Password -->
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter password">
+                        <span id="passError"></span>
+                    </p>
+
+                    <!-- Confirm Password -->
+                    <p>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" placeholder="Re-enter password">
+                        <span id="confirmPassError"></span>
+                    </p>
+
+                    <!-- Gender -->
+                    <div class="gender-section">
+                        <label>Gender</label>
+
+                        <div class="options">
+                            <input type="radio" id="male" name="gender" value="Male">
+                            <label for="male">Male</label>
+
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="female">Female</label>
+                        </div>
+
+                        <span id="genderError"></span>
+                    </div>
+
+                    <!-- Terms and Conditions -->
+                    <div class="terms-section">
+                        <label>Terms and Conditions</label>
+
+                        <div class="options">
+                            <input type="checkbox" id="terms1" name="terms">
+                            <label for="terms1">I accept the Privacy Policy</label>
+                        </div>
+
+                        <div class="options">
+                            <input type="checkbox" id="terms2" name="terms">
+                            <label for="terms2">I accept the Terms of Service</label>
+                        </div>
+
+                        <div class="options">
+                            <input type="checkbox" id="terms3" name="terms">
+                            <label for="terms3">I accept the Data Policy</label>
+                        </div>
+
+                        <span id="termsError"></span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <p>
+                        <input type="submit" id="submitBtn" value="Register">
+                    </p>
+
+                </form>
+
+            </div>
+
+            <div class="signup-footer">
+                <p>Already have an account? <a href="#">Login</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
